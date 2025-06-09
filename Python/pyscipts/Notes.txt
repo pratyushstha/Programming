@@ -1,0 +1,61 @@
+High level programming language 
+
+ 
+
+Executed line by line so called interpreter-based language.  
+
+ 
+
+Datatype of variables is determined during runtime, so called dynamically typed 
+
+ 
+
+How does a python interpreter work  
+
+Step 0:Source code(.py file) 
+
+ 
+
+Step 1:Lexical Analysis(Tokenizer/Lexer) 
+Python breaks the source code into tokens(identifiers, keywords, operators, literals etc.) 
+Eg: x, =, print, (,x,+,2) 
+
+ 
+Step 2: Parsing(Syntax Analysis) 
+The interpreter checks the syntax using a parser. It buids an internal structure called Abstract Syntax Tree(AST) that represents the code hierarchy.  
+
+ 
+
+Step 3: Compliation to Bytecode 
+Python complies the AST to bytecode, a low-level, platform independent representation. Stored in .pyc fies inside the __pycache__.  
+ 
+Step 4: Executed by PVM 
+Bytecode is interpreted line by line. This is where actual execution happens(Function calls, arithmetic operations, exception handling etc.) 
+
+  
+
+	          
+
+Data types of Python:  
+
+Class <int> 
+
+Class<float> 
+
+Class<str> 
+
+ 
+	1. Text(String) 
+
+ 
+	2. Number 
+
+		a. Integer 
+
+		b. Float 
+
+Arithmetic operators: +, -, *, /, %, //, ** 
+
+ 
+
+ 
