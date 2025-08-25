@@ -1,0 +1,73 @@
+Array Creation & Manipulation
+
+Array Creation and Reshaping: Create a 1D NumPy array containing all the odd numbers from 1 to 29. Then, reshape this array into a 3x5 matrix.
+
+Boolean Indexing (Filtering Data): Create a 4x4 NumPy array with random integers between 1 and 100. Write a program to extract all numbers from the array that are greater than 50 and replace them with the value -1 in the original array.
+
+"Fancy" Indexing (Specific Element Selection): Create an 8x8 NumPy array representing a chessboard, with alternating 0s and 1s. Then, use a list of index tuples (e.g., [(0,0), (2,3), (5,5)]) to retrieve the values at those specific positions.
+
+Stacking and Splitting Arrays:
+
+Create two 2x3 NumPy arrays, A and B, with random integer values.
+
+Stack them vertically to create a 4x3 array.
+
+Stack them horizontally to create a 2x6 array.
+
+Finally, split the horizontally stacked array back into three equal 2x2 arrays.
+
+Sorting Along an Axis: Create a 3x4 array of random integers.
+
+Sort the entire array row by row (sort each row independently).
+
+Sort the entire array column by column (sort each column independently).
+
+Using linspace and arange:
+
+Create an array of 10 numbers evenly spaced between 5 and 10 using linspace.
+
+Create an array of numbers from 0 up to (but not including) 10, with a step of 0.5, using arange.
+
+Conditional Replacement with np.where(): Create a 1D array of integers from 1 to 10. Use np.where() to create a new array where all odd numbers are replaced with -1 and all even numbers are squared.
+
+Mathematical & Statistical Operations
+
+Matrix Arithmetic (as seen in 2081 exam): Create two 3x3 NumPy arrays, A and B. Perform and display the results of the following operations:
+
+Matrix Addition (A + B)
+
+Matrix Subtraction (A - B)
+
+Element-wise Multiplication (A * B)
+
+Matrix Multiplication vs. Element-wise Multiplication: Using the 3x3 matrices A and B from the previous question, demonstrate the difference between element-wise multiplication (*) and true matrix multiplication (@ or np.dot()). Print the results of both.
+
+Applying Universal Functions (ufuncs): Create a 1D NumPy array x = [0, PI/2, PI, 3*PI/2, 2*PI] (where PI is np.pi). Calculate and print the sin and cos for each element in the array.
+
+Statistical Analysis: Create a 4x5 NumPy array of random numbers. Calculate and print the following:
+
+The sum of all elements.
+
+The mean of each column.
+
+The standard deviation of each row.
+
+Random Number Generation and Aggregation: Generate a 5x5 NumPy array filled with random integers between 10 and 50. Find and print the maximum value, minimum value, and the position (index) of the maximum value in the flattened array.
+
+Linear Algebra & Problem Solving
+
+Solving a System of Linear Equations (as seen in 2082 exam): Write a program using NumPy to solve the following system of linear equations:
+
+x+y+z=6
+
+2y+5z=−4
+
+2x+5y−z=27
+
+Determinant and Inverse of a Matrix: Create a 3x3 square matrix. Write a program to calculate and print its determinant and its inverse. Handle the case where the matrix might be singular (i.e., its determinant is zero and it has no inverse).
+
+Data Normalization: Write a function that takes a NumPy array as input and normalizes it. Normalization scales all the data points so they fall between 0 and 1. The formula is: X_normalized = (X - X_min) / (X_max - X_min). Apply this function to a random 3x3 array and print the result.
+
+Finding Unique Elements and their Counts: Create a 1D NumPy array with repeated elements. Find all the unique elements in the array and also count the number of times each unique element appears.
+
+Vector Operations (Dot Product and Cross Product): Create two 1D NumPy arrays of size 3, representing two vectors in 3D space. Calculate and print their dot product and cross product.

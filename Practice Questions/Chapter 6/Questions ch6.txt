@@ -1,0 +1,34 @@
+
+Handling Specific Exceptions (try...except): Write a program that asks the user to input two numbers and divides them. You must handle two specific exceptions: ValueError if the user enters non-numeric input, and ZeroDivisionError if the second number is zero. Provide a user-friendly message for each error.
+
+Using else and finally Blocks: Write a function that takes a list and an index as input and attempts to access the element at that index. Use a try...except block to handle IndexError. Use an else block to print "Access successful!" if no error occurs. Use a finally block to print "Execution attempt finished." regardless of the outcome.
+
+File Writing and Error Handling: Write a program that prompts the user for a filename and a line of text. The program should append the text to the specified file. Handle the FileNotFoundError that occurs if the directory does not exist by printing a clear error message.
+
+Reading and Processing a Text File: Create a text file named data.txt. Write a Python program to read this file and print the total number of lines, words, and characters.
+
+User-Defined Exceptions: Create a custom exception class called InvalidAgeError. Write a program that asks for a user's age. If the age entered is less than 18 or greater than 120, raise the InvalidAgeError with an appropriate message and handle it.
+
+File I/O with Data Parsing: Assume you have a file named scores.txt where each line contains a player's name and score, separated by a comma (e.g., "Ram,95"). Write a program to read this file, find the player with the highest score, and print their name and score.
+
+Using the with Statement for Multiple Files: Write a program that reads the content from a source.txt file and writes it to a destination.txt file, but with all lines converted to uppercase. Use the with statement for handling both files safely.
+
+Binary File Handling (Image Copying): Write a program to create an exact copy of an image file (e.g., logo.png). Your program must read the source image in binary mode ('rb') and write its content to a new file (logo_copy.png) in binary mode ('wb').
+
+Using assert for Debugging: Write a function that calculates the discount for a customer based on total price and a discount percentage. Use an assert statement to ensure the discount percentage passed to the function is between 0 and 100, inclusive.
+
+Logging Exceptions: Modify the division program from the first question. Instead of printing error messages, import the logging module and configure it to write any ValueError or ZeroDivisionError exceptions to a file named error.log, including a timestamp.
+
+Comprehensive File Error Handling: Write a program that attempts to open and read a file specified by the user. Handle FileNotFoundError if the file doesn't exist and PermissionError if the file cannot be accessed. Use a finally block to ensure a message "File operation concluded." is always printed.
+
+Storing Structured Data in a File (as seen in 2081 exam): Write a program that asks for the details of three students (Name, Roll No, College Name). Store each student's information as a dictionary, add these dictionaries to a list, and then write the list to a file named students.json using the json module.
+
+Random File Access (seek() and write()): Create a text file with the content "Hello World". Write a program that opens this file in read/write mode (r+), uses seek() to move the cursor to the 6th position, and overwrites "World" with "Python" to make the final content "Hello Python".
+
+User-Defined Exception for Password Validation: Create a custom exception WeakPasswordError. Write a function that takes a password string and raises WeakPasswordError if the password is less than 8 characters long. Write a program that uses this function within a try...except block.
+
+Data Cleaning from a File: You have a file raw_data.txt containing lines of numbers, but some lines might be empty or contain non-numeric text. Write a program to read this file, calculate the sum of the numbers on valid lines, and simply ignore any lines that cause a ValueError during conversion to a number.
+
+Reading a File into a Dictionary: Suppose you have a file config.txt with key-value pairs on each line, separated by an equals sign (e.g., username=admin). Write a program to read this file and store its contents in a Python dictionary.
+
+File Appending with a Timestamp: Write a program that appends a log message to a file named app.log. Each time a message is added, it should be prefixed with the current date and time.

@@ -1,0 +1,35 @@
+Matrix Multiplication using 2D Lists: Write a function that takes two compatible matrices (represented as 2D lists) as arguments and returns their product matrix.
+
+Processing a List of Dictionaries (as seen in 2082 exam): You are given a list of dictionaries, where each dictionary represents a student with their name and scores in three subjects: students = [{'name': 'Ram', 'scores': [80, 85, 90]}, {'name': 'Sita', 'scores': [92, 78, 88]}]. Write a program to find the student with the highest average score and print their name and average.
+
+Dictionary Manipulation (Inverting a Dictionary): Write a function that takes a dictionary as input and returns a new dictionary where the keys and values are swapped. For example, { 'a': 1, 'b': 2 } becomes { 1: 'a', 2: 'b' }. Your function must correctly handle cases where multiple keys have the same value by storing the new keys in a list.
+
+Set Operations (Symmetric Difference): Ask the user to input two comma-separated strings of numbers. Convert these into two sets of integers. Find and print the symmetric difference (elements that are in either of the sets, but not in both).
+
+Sorting a List of Tuples: You are given a list of tuples, where each tuple contains a product name and its price, like [('Apple', 50), ('Banana', 20), ('Orange', 40)]. Write a program to sort this list in descending order based on the price.
+
+map() and lambda for String Manipulation: Given a list of names ['ram', 'shyam', 'hari'], use the map() function with a lambda to create a new list where each name is capitalized (e.g., ['Ram', 'Shyam', 'Hari']).
+
+filter() and lambda for Conditional Selection: Given a list of strings, use the filter() function with a lambda to create a new list containing only the strings that are palindromes.
+
+Combining map and filter: You have a list of integers. Write a single line of code that first filters out the odd numbers and then returns a new list containing the squares of the remaining even numbers.
+
+Matrix Transpose (2D Lists): Write a function transpose(matrix) that takes a matrix (a 2D list) and returns its transpose. The transpose is formed by turning rows into columns and vice versa.
+
+Grouping Data with Dictionaries: Given a list of dictionaries representing employees, employees = [{'name': 'Alice', 'department': 'HR'}, {'name': 'Bob', 'department': 'IT'}, {'name': 'Charlie', 'department': 'HR'}], write a program to create a new dictionary where keys are department names and values are lists of employee names.
+
+Tuple Unpacking in a Loop: You have a list of tuples, where each tuple contains a student's roll number, name, and marks: records = [(1, 'Ram', 88), (2, 'Sita', 92), (3, 'Gita', 76)]. Write a program that iterates through this list and prints the details for each student in the format: "Roll No: [roll], Name: [name], Marks: [marks]".
+
+Set Operations for Data Cleaning: You are given two lists of email addresses. The first list contains all subscribed users, and the second list contains users who have unsubscribed. Write a program that returns a final list of active subscribers, ensuring there are no duplicates and the unsubscribed users are removed. Use sets for efficiency.
+
+Lambda Functions as Arguments: Write a function apply_operation(data_list, operation) that takes a list of numbers and a function (operation) as arguments. It should apply the operation to every item in the list and return a new list. Demonstrate this by passing it a lambda function for cubing a number.
+
+Word Frequency Counter (Dictionary): Write a program that reads a sentence from the user, splits it into words, and stores the frequency of each word in a dictionary. The program should be case-insensitive and should ignore punctuation.
+
+Simulating a Queue using a List: Create a program that simulates a basic queue (First-In, First-Out). It should use a list to store items and provide a menu with options: enqueue (add an item to the end), dequeue (remove the item from the front), and display.
+
+Finding the Second Largest Number: Write a function that takes a list of numbers as input and returns the second largest number in the list without using any built-in sorting functions (sort() or sorted()).
+
+Flattening a 2D List: Write a function that takes a 2D list (a list of lists) and returns a single "flattened" 1D list containing all the elements from the original lists.
+
+Dictionary Comprehension: Given a list of words, ['apple', 'banana', 'cherry'], use a dictionary comprehension to create a dictionary where the keys are the words and the values are the lengths of the words. The result should be {'apple': 5, 'banana': 6, 'cherry': 6}.

@@ -1,0 +1,67 @@
+Class with Constructor and Methods: Create a BankAccount class with attributes for account_holder_name, a private _account_number, and a private _balance.
+
+The constructor (__init__) should initialize these values.
+
+Include public methods deposit(amount) and withdraw(amount). The withdraw method must prevent the balance from going below zero.
+
+Include a get_balance() method to safely access the balance.
+
+Implement the __str__() method to return a formatted string with the account holder's name and balance.
+
+Single Inheritance with super(): Create a base class Person with a constructor that initializes name and age. Then, create a derived class Student that inherits from Person. The Student constructor should initialize name, age, and a new attribute student_id. It must call the parent class's constructor using super(). Add a display() method to the Student class to show all its details.
+
+Hierarchical Inheritance: Create a base class Employee with attributes name and base_salary. Derive two classes from it: Manager and Developer.
+
+The Manager class should have an additional attribute bonus, and its calculate_salary() method should return base_salary + bonus.
+
+The Developer class should have an attribute overtime_hours, and its calculate_salary() method should return base_salary + (overtime_hours * 50).
+
+Multilevel Inheritance: Create a three-level inheritance structure:
+
+Device class with an attribute brand.
+
+Phone class inheriting from Device with an attribute phone_number.
+
+SmartPhone class inheriting from Phone with an attribute os (Operating System). The SmartPhone class should have a method to display all details from all parent classes.
+
+Polymorphism with Abstract Base Class (ABC - as seen in 2082 exam): Create an abstract base class Shape with an abstract method area() and another abstract method perimeter(). Derive two concrete classes, Rectangle (with length and width) and Circle (with radius), from Shape. Implement both abstract methods in the derived classes.
+
+Arithmetic Operator Overloading (Complex Numbers - as seen in 2082 exam): Create a class ComplexNumber with real and imaginary parts. Overload the addition (+), subtraction (-), and multiplication (*) operators for two ComplexNumber objects.
+
+Arithmetic Operator Overloading (Time - as seen in 2081 exam): Create a class Time with hour, minute, and second attributes. Overload the addition (+) and subtraction (-) operators to correctly add or subtract two Time objects. Ensure the results are normalized (e.g., 70 seconds becomes 1 minute and 10 seconds).
+
+Comparison Operator Overloading: Create a class Book with attributes title and pages. Overload all comparison operators (==, !=, <, >, <=, >=) to compare two Book objects based on their number of pages.
+
+Aggregation (HAS-A Relationship): Create a Student class and a Course class. The Course class should have a course_name and a list of Student objects enrolled in it. The Student class should have name and roll_no. Write a method in the Course class to add a student and another method to display all enrolled students.
+
+Iterator in a Class: Create a class WordSplitter that takes a sentence in its constructor. Implement the __iter__() and __next__() methods to make the class iterable, so that a for loop can iterate over each word in the sentence in reverse order.
+
+Class Method and Static Method: Create a Car class with a class attribute total_cars_sold.
+
+The __init__ method should increment this counter every time a new car object is created.
+
+Create a class method get_total_sold() that returns the total count.
+
+Create a static method validate_license_plate(plate_no) that returns True if a given plate number is valid (e.g., follows a specific string format), and False otherwise.
+
+Unary and In-place Operator Overloading: Create a class Vector2D with x and y attributes.
+
+Overload the unary minus operator (-) to return a new Vector2D with negated x and y values.
+
+Overload the in-place addition operator (+=) to modify the vector's x and y attributes directly.
+
+Multiple Inheritance: Create two parent classes: CanFly (with a fly() method) and CanSwim (with a swim() method). Create a child class Duck that inherits from both and can therefore both fly() and swim().
+
+Encapsulation with Property Decorators: Design a Student class with a private attribute _marks. Use the @property decorator to create a marks getter. Create a @marks.setter that prevents the marks from being set to a value less than 0 or greater than 100, raising a ValueError if the rule is violated.
+
+Overloading __len__() and __getitem__(): Create a Playlist class that stores a list of song titles in a private attribute.
+
+Overload the __len__() method so len(my_playlist) returns the number of songs.
+
+Overload the __getitem__() method so you can access songs using index notation, like my_playlist[0].
+
+Operator Overloading for Custom Logic: Create a class Polygon that is initialized with a list of side lengths. Overload the addition operator (+) so that adding two Polygon objects creates a new Polygon whose side lengths are the sum of the corresponding side lengths of the two original polygons.
+
+Abstract Class for Payroll System: Design an abstract base class Employee with an abstract method calculate_pay(). Create two concrete subclasses: SalariedEmployee (with a fixed weekly salary) and HourlyEmployee (paid based on hours worked and an hourly rate). Implement calculate_pay() in both subclasses.
+
+Overloading __del__() (Destructor): Create a FileHandler class that opens a file in its __init__ method. Implement the __del__ method to ensure the file is always closed when the object is destroyed, printing a message "File closed." to confirm.

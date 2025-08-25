@@ -1,0 +1,27 @@
+Arithmetic Operator Overloading Questions
+Addition (__add__): Create a Vector class that represents a 2D vector with x and y components. Overload the + operator so that when you add two Vector objects, it returns a new Vector object representing their sum (i.e., the x components are added together, and the y components are added together).
+
+Subtraction (__sub__): Create a BankAccount class with a balance attribute. Overload the - operator to simulate a withdrawal. When you subtract a number from a BankAccount object, it should return a new BankAccount object with the balance reduced by that amount.
+
+Multiplication (__mul__): Create a StringRepeater class that holds a string. Overload the * operator so that when you multiply a StringRepeater object by an integer n, it returns the internal string repeated n times.
+
+True Division (__truediv__): Create a Recipe class that stores a dictionary of ingredients and their quantities. Overload the / operator so that when you divide a Recipe object by a number n, it returns a new Recipe object with all ingredient quantities scaled down by a factor of n (to adjust the serving size).
+
+Floor Division (__floordiv__): Create a Playlist class that has a total duration in seconds. Overload the // operator so that when you floor-divide a Playlist object by an integer representing the length of a song in seconds, it returns how many times that song could be fully played within the playlist's total duration.
+
+Modulus (__mod__): Create a CircularList class that holds a list of items. Overload the % operator so that when you use the modulus operator with an index, it returns the item at that index, wrapping around if the index is larger than the list size (e.g., for a list of 5 items, my_list % 5 would return the first item, my_list % 6 the second, and so on).
+
+Exponentiation (__pow__): Create a Growth class that models population growth with an initial population and a rate. Overload the ** operator so that when you raise a Growth object to the power of n (representing n years), it calculates and returns the final population after n years of compounding growth.
+
+Relational Operator Overloading Questions
+Less Than (__lt__): Create a Book class with title and page_count attributes. Overload the < operator to compare two Book objects based on their page_count. A book is "less than" another if it has fewer pages.
+
+Less Than or Equal To (__le__): Create a Temperature class that stores a value in Celsius. Overload the <= operator to compare two Temperature objects.
+
+Equal To (__eq__): Create a Point class for 2D coordinates (x, y). Overload the == operator to return True if two Point objects have the same x and y values, and False otherwise.
+
+Not Equal To (__ne__): Create a Word class that stores a string. Overload the != operator to compare two Word objects based on their string value, ignoring case. For example, Word('Hello') != Word('hello') should be False.
+
+Greater Than (__gt__): Create a Player class with a score attribute. Overload the > operator to compare two Player objects based on their scores.
+
+Greater Than or Equal To (__ge__): Create a SoftwareVersion class that takes a version number as a string (e.g., "1.2.5"). Overload the >= operator to correctly compare two SoftwareVersion objects. For example, SoftwareVersion("2.1.0") >= SoftwareVersion("1.9.9") should be True.

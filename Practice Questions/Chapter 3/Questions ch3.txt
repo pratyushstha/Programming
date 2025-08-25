@@ -1,0 +1,41 @@
+1. Recursive Function : Write a Python program to find the nth term of the Fibonacci series using a recursive function. The program should ask the user for the value of 'n'.
+
+2. while Loop and Arithmetic (Palindrome Number): Write a program that asks the user for an integer and determines if it is a palindrome (reads the same forwards and backwards, e.g., 121 or 4554). You must solve this by reversing the number mathematically, without converting it to a string.
+
+3. Nested Loops and Conditionals (Armstrong Numbers): Write a program to find all Armstrong numbers between 100 and 1000. An Armstrong number is a number that is equal to the sum of the cubes of its own digits (e.g., 153 = 1^3 + 5^3 + 3^3).
+
+4. Function with return and Logic (Leap Year Checker): Write a function is_leap(year) that takes a year as an argument and returns True if it's a leap year and False otherwise. A year is a leap year if it is divisible by 4, unless it is a century year not divisible by 400.
+
+5. Recursive Function (Greatest Common Divisor - GCD): Write a recursive function to find the GCD of two numbers using the Euclidean algorithm. The algorithm is defined as: gcd(a, b) is a if b is 0, otherwise it is gcd(b, a % b).
+
+6. for Loop and String Manipulation (Vowel/Consonant Counter): Write a program that asks the user for a sentence and counts the total number of vowels, consonants, and digits in it.
+
+7. Menu-Driven Program (while loop and if-elif-else): Create a menu-driven program that acts as a simple calculator. The menu should offer options for addition, subtraction, multiplication, division, and exit. The program should loop, showing the menu and performing the chosen operation, until the user chooses to exit.
+
+8. Recursive Function (Sum of Digits): Write a recursive function sum_digits(n) that calculates the sum of the digits of a non-negative integer. For example, sum_digits(4321) should return 10.
+
+9. Nested Loops (Pattern Generation - Pascal's Triangle): Write a program to print Pascal's Triangle up to a specified number of rows.
+Example for 5 rows:
+
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+10. Functions and Loops (Perfect Number Checker): A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding the number itself). (e.g., 6 = 1+2+3). Write a function is_perfect(n) that checks if a number is perfect. Then, write a program that uses this function to print all perfect numbers between 1 and 1000.
+
+11. Recursive Function (Binary Conversion): Write a recursive function that takes a positive decimal number as input and prints its binary equivalent string.
+
+12. while Loop and break (Number Guessing Game): Create a number guessing game where the computer has a secret number between 1 and 100. The user gets a maximum of 7 attempts to guess it. The program should give hints ("Too high" or "Too low"). The game ends if the user guesses correctly or runs out of attempts.
+
+13. Function with Variable Arguments (Find Average and Count): Write a function analyze_numbers(*numbers) that accepts a variable number of numeric arguments and returns a tuple containing the count of the numbers and their average.
+
+14. for Loop and continue (Conditional Summation): Write a program that asks the user to enter 10 numbers. The program should calculate the sum of only the positive odd numbers entered. If the user enters a negative number, zero, or a positive even number, it should be ignored using the continue statement.
+
+15. Recursive Function (Power Calculation): Write a recursive function to calculate the value of a number raised to an exponent (e.g., power(base, exp)). Do not use the ** operator.
+
+16. Recursive Function (String Reversal): Write a recursive function that takes a string as input and returns the reverse of that string. For example, reverse("hello") should return "olleh".
+
+17. Combining Concepts (Prime Factorization): Write a program that finds and prints the prime factors of a number entered by the user. For example, if the input is 84, the output should be 2, 2, 3, 7.
+
+18. Function with Keyword Arguments: Write a function calculate_si(principal, rate, time) that calculates Simple Interest. Call this function by passing the arguments in a different order using keyword arguments. (Formula: SI = PTR/100).

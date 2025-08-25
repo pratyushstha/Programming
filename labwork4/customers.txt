@@ -1,0 +1,3 @@
+Ram Bahadur Thapa, 1, 10000
+Sita Shrestha, 2, 15000
+Babu Ram Ghimire, 3, 15000
